@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_khoanThu"
+            android:icon="@drawable/dola"
+            android:title="Khoản thu"/>
+        <item
+            android:id="@+id/nav_khoanChi"
+            android:icon="@drawable/dola"
+            android:title="Khoản chi"/>
+        <item
+            android:id="@+id/nav_thongKe"
+            android:icon="@drawable/dola"
+            android:title="Thống kê"/>
+    </group>
+    <item android:title="Chức năng">
+        <menu>
+            <item
+                android:id="@+id/nav_gioiThieu"
+                android:icon="@drawable/dola"
+                android:title="Giới thiệu"/>
+            <item
+                android:id="@+id/nav_thoat"
+                android:icon="@drawable/exit"
+                android:title="Thoát"/>
+        </menu>
+    </item>
+</menu>
